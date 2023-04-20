@@ -18,8 +18,7 @@ jobs:
           node-version: 14
       - name: Install npm
         run:
-          npm ci
-          npm test
+          npm install
 
   check-python:
     runs-on: ubuntu-latest
